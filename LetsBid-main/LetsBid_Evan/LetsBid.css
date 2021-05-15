@@ -1,0 +1,126 @@
+@charset 'utf-8';
+/* CSS Document */
+
+body { 
+    display: block;
+    background-color: #d7d7d9;
+    font-family: "Comic Sans MS", sans-serif; 
+    margin: 0;
+}
+
+h1 {
+    background-color: #808080;
+    color: rgb(0, 204, 255);
+    font-size: 72px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+h2 {
+    background-color: #00FFFF;
+    text-align: center;
+    padding-left: 18px;
+    margin-right: 24px;
+}
+
+h3 {
+    font-size: 56px;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 28px;
+}
+
+#sidebar { float: left; }
+
+input[type=text] {
+    position: relative;
+    left: 24px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    background-color: #48c9f8;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 12px;
+    padding: 6px;
+}
+    
+main { 
+    margin-left: 240px;
+    border-left: 4px;
+    border-left-color: black;
+    border-left-style: ridge;
+    height: 100%;
+    max-height: none;
+    background-image: linear-gradient(rgb(0, 204, 255), #FFFFFF); 
+}
+
+p {
+    font-size: 16px;
+}
+
+#itemlist {
+    margin: 16px;
+}
+
+#itemType {
+    display: block;
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 400px;
+    margin: 48px;
+    padding: 18px;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+#signin {
+    background-image: url("signup.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 835px;
+    height: 605px;
+}
+
+#footer {
+    background-color: #00008B;
+    margin-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 28px;
+}
+
+.footxt {
+    color: #FFFFFF;
+}
+
+.signtxt {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttxt {
+    background-color: #48c9f8;
+    text-align: center;
+    list-style-type: none;
+    width: 180px;
+    margin: auto;
+    font-size: 20px;
+    padding: 16px;
+}
+    
+    
